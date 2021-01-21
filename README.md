@@ -8,6 +8,6 @@ Do you need more help? Visit my server here: **https://discord.gg/kQ8CE5GRNg** ð
 - Web browser supporting HTML - https://www.google.com/intl/en_gb/chrome/
 
 ## How to setup
-1. Start the bot by having the cmd/terminal inside the bot folder and type **python oreskis_bot.py**
+1. Start the **index.html** inside the main folder.
 
 5. You're done, enjoy your hexclock!
