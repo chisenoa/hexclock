@@ -9,8 +9,7 @@ function getTime(hex) {
   var second = pad(now.getSeconds())
   if (hex == "hex") {
     return hour.toString() + minute.toString() + second.toString()
-  }
-  else {
+  } else {
     return hour + ":" + minute + ":" + second
   }
 }
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var time = document.getElementById("time")
   var timetext = document.getElementById("timetext")
   var metaThemeColor = document.querySelector("meta[name=theme-color]")
-  
+
   function timeInHex() {
     gettime = "#" + getTime("hex")
     bg.style.backgroundColor = gettime
